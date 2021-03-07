@@ -1,0 +1,42 @@
+.presentation{
+    text-align: center;
+    margin-top: 30vh;
+    padding: 5vh;
+}
+
+.back{
+    position: relative;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)), url(img/page1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.name{
+    font-size: 32px;
+    text-decoration: bold;
+    color: rgb(255, 255, 255);
+}
+
+.description{
+    font-size: 23px;
+    text-decoration: bold;
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    position: relative;
+    transform: translateY(10vh);
+}
+
+.img-fluid{
+   transform: translateY(-2vh);
+   width: 150px; 
+   height: 150px;
+}
+
+.jafs_name{
+    font-size: 40px;
+    color: whitesmoke;
+}
