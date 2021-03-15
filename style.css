@@ -1,17 +1,25 @@
+body, html {
+    height: 100%;
+}
+
 .presentation{
     text-align: center;
-    margin-top: 25vh;
-    padding: 5vh;
+    position: relative;
+    transform: translateY(50%);
+    padding: 8px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .back{
-    display: block;
-    position: relative;
-    background-size: cover;
-    background: url(img/page1.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;  
+    background: url(img/page1.png) fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover!important;
 }
 
 .name{
