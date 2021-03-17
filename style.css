@@ -72,8 +72,8 @@ html, body {
     .btn{
         position: relative;
         transform: translateY(0vh);
-        width: 8vh;
-        height: 8vh;
+        width: 10vh;
+        height: 10vh;
     }
     .nav-link{
         font-size: 18px;
