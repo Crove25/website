@@ -71,6 +71,7 @@ html, body {
     }
     .btn{
         position: relative;
+        transform: translateY(2vh);
         width: 10vh;
         height: 10vh;
     }
