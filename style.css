@@ -1,5 +1,10 @@
-body, html {
+html, body { 
+    background: url(img/page1.png) no-repeat center center fixed; 
     height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .presentation{
@@ -12,6 +17,7 @@ body, html {
 ::-webkit-scrollbar {
     display: none;
 }
+
 
 .back{
     background: url(img/page1.png) fixed;
