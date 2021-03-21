@@ -1,4 +1,4 @@
-html, body { 
+.mainpage { 
     background: url(img/page1.png) no-repeat center center fixed; 
     height: 100%;
     -webkit-background-size: cover;
@@ -79,3 +79,48 @@ html, body {
         font-size: 18px;
     }
 }
+
+/* ----------------ACERCA---------------- */
+
+.carousel {
+    margin-bottom: 4rem;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .carousel-item{
+    background: url(img/page2.png) no-repeat center center; 
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
