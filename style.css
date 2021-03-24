@@ -30,6 +30,11 @@
     color: rgb(255, 255, 255);
 }
 
+#send{
+    display: block;
+    transform: translateY(0vh);
+}
+
 .btn{
     position: relative;
     transform: translateY(10vh);
@@ -109,7 +114,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
   }
 
   .marketing .col-lg-4 {
@@ -124,3 +128,4 @@
     margin-right: .75rem;
     margin-left: .75rem;
   }
+
