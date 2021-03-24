@@ -1,131 +1,147 @@
-.mainpage { 
-    background: url(img/page1.png) no-repeat center center fixed; 
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.mainpage {
+  background: url(img/page1.png) no-repeat center center fixed;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.presentation{
-    text-align: center;
-    position: relative;
-    transform: translateY(50%);
-    padding: 8px;
+.presentation {
+  text-align: center;
+  position: relative;
+  transform: translateY(50%);
+  padding: 8px;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.name{
-    font-size: 32px;
-    text-decoration: bold;
-    color: rgb(255, 255, 255);
+.name {
+  font-size: 32px;
+  text-decoration: bold;
+  color: rgb(255, 255, 255);
 }
 
-.description{
-    font-size: 23px;
-    text-decoration: bold;
-    color: rgb(255, 255, 255);
+.description {
+  font-size: 23px;
+  text-decoration: bold;
+  color: rgb(255, 255, 255);
 }
 
-#send{
-    display: block;
-    transform: translateY(0vh);
+#enlace {
+  position: relative;
+  transform: translateY(10vh);
 }
 
-.btn{
-    position: relative;
-    transform: translateY(10vh);
+.img-fluid {
+  transform: translateY(-2vh);
+  width: 150px;
+  height: 150px;
 }
 
-.img-fluid{
-   transform: translateY(-2vh);
-   width: 150px; 
-   height: 150px;
+.jafs_name {
+  font-size: 40px;
+  color: whitesmoke;
 }
 
-.jafs_name{
-    font-size: 40px;
-    color: whitesmoke;
-}
-
-.nav-link{
-    font-size: 20px;
-    padding: 10px;
+.nav-link {
+  font-size: 20px;
+  padding: 10px;
 }
 
 @media (max-width: 700px) {
-
-    .presentation{
-        text-align: center;
-        position: relative;
-        transform: translateY(30%);
-        padding: 8px;
-    }
-
-    .name{
-        font-size: 25px;
-    }
-    .description{
-        font-size: 18px;
-    }
-    .jafs_name{
-        font-size: 30px;
-    }
-    .btn{
-        position: relative;
-        transform: translateY(0vh);
-        width: 10vh;
-        height: 10vh;
-    }
-    .nav-link{
-        font-size: 18px;
-    }
+  .presentation {
+    text-align: center;
+    position: relative;
+    transform: translateY(30%);
+    padding: 8px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .jafs_name {
+    font-size: 30px;
+  }
+  #enlace {
+    position: relative;
+    transform: translateY(0vh);
+    width: 10vh;
+    height: 10vh;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
 }
 
 /* ----------------ACERCA---------------- */
 
 .carousel {
-    margin-bottom: 4rem;
-  }
+  margin-bottom: 4rem;
+}
 
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-  
-  .carousel-item {
-    height: 32rem;
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-  }
-  
-  .carousel-item{
-    background: url(img/page2.png) no-repeat center center; 
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
 
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-  }
+.carousel-item {
+  height: 32rem;
+}
 
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
 
+#page_2 {
+  background: url(img/page2.png) no-repeat center center;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* ----------------SERVICIOS--------------- */
+
+#page_3 {
+  background: url(img/page3.png) no-repeat center center;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ----------------CONTACTO--------------- */
+
+#page_4 {
+  background: url(img/page4.png) no-repeat center center;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
